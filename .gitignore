@@ -59,3 +59,8 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
